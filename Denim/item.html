@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+                <nav class="navbar">
+                    <ul class="header__item">
+                        <li class="navbar__item">
+                            <a href="#woman">
+                                Woman
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#man">
+                                Man
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#new">
+                                New
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            <div class="logo header__item">
+                <a href="index.html">Nîmes</a>
+            </div>
+            <nav class="navbar">
+                <ul class="search header__item">
+                        <li class="loupe">
+                            <a href="#search">
+                                <img src="./img/search.svg">
+                            </a>
+                        </li>
+                        <li class="cart">
+                            <a href="#cart">
+                                <img src="./img/basket.svg">
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main__container1">
+                <div class="block slider">
+                    <div class="slider__content">
+                        <button class="arrows arrow-left goLeft">
+                            <img class="goLeft" src="./img/arrow-left.svg">
+                        </button>
+                        
+                        <button class="arrows arrow-right goRight">
+                            <img class="goRight" src="./img/arrow-right.svg">
+                        </button>
+                    </div>
+                    <div class="slider__photos">
+                        <div data-number="0" class="slider__photos_item big">
+                            <img src="./img/product-image-1.png">
+                        </div>
+                        <div data-number="1" class="slider__photos_item">
+                            <img src="./img/product-image-2.png" >
+                        </div>
+                        <div data-number="2" class="slider__photos_item">
+                            <img src="./img/product-image-3.png" >
+                        </div>
+                        <div data-number="3" class="slider__photos_item">
+                            <img src="./img/product-image-4.png" >
+                        </div>
+                        <div data-number="4" class="slider__photos_item">
+                            <img src="./img/product-image-5.png" >
+                        </div>
+                    </div>
+                </div>
+                <div class="block description">
+                    <h1>
+                        Overalls
+                    </h1>
+                    <p>
+                        Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.
+                    </p>
+                    <div class="color">
+                        <h2>
+                            Color
+                        </h2>
+                        <div class="colors">
+                                <input type="radio" class="radio" id="color1" name="color"/>
+                                <label for="color1"></label>
+                                <input type="radio" class="radio" id="color2" name="color"/>
+                                <label for="color2"></label>
+                                <input type="radio" class="radio" id="color3" name="color"/>
+                                <label for="color3"></label>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <h2>
+                            Size
+                        </h2>
+                        <div class="sizes">
+                            <input type="radio" id="xs" name="size">
+                            <label for="xs">XS</label>
+                            <input type="radio" id="s" name="size">
+                            <label for="s">S</label>
+                            <input type="radio" id="m" name="size">
+                            <label for="m">M</label>
+                            <input type="radio" id="l" name="size">
+                            <label for="l">L</label>
+                            <input type="radio" id="xl" name="size">
+                            <label for="xl">XL</label>
+                        </div>
+                    </div>
+                    <div class="price">
+                        $ 160
+                    </div>
+                    <button class="add">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+            <div class="main__container2">
+                <div class="main__container2_header">
+                    <div>
+                        <h1>You may also like</h1>
+                    </div>
+                    <div class="underline">
+                        <p>
+                            <a href="catalog.html">View all</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="main__container2_content">
+                    <div>
+                        <img src="./img/similar-image-1.png">
+                        <p>Overalls</p>
+                        <h3>$ 140</h3>
+                    </div>
+                    <div>
+                        <img src="./img/similar-image-2.png">
+                        <p>Overalls</p>
+                        <h3>$ 110</h3>
+                    </div>
+                    <div>
+                        <img src="./img/similar-image-3.png">
+                        <p>Jacket</p>
+                        <h3>$ 70</h3>
+                    </div>
+                    <div>
+                        <img src="./img/similar-image-4.png">
+                        <p>Jacket</p>
+                        <h3>$ 60</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logo ">
+                Nîmes
+            </div>
+            <nav>
+                <ul class="info footer__item">
+                    <li class="info__item">
+                        <a >
+                            Shop
+                        </a>
+                    </li>
+                    <li class="info__item">
+                        <a>
+                            Delivery
+                        </a>
+                    </li>
+                    <li class="info__item">
+                        <a >
+                            Service
+                        </a>
+                    </li>
+                    <li class="info__item">
+                        <a >
+                            Sitemap
+                        </a>
+                    </li>
+                    <li class="info__item">
+                        <a >
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+                <ul class="social footer__item">
+                        <li class="social__item">
+                            <a>
+                                <img src="./img/fb.svg">
+                            </a>
+                        </li>
+                        <li class="social__item" id="inst">
+                            <a>
+                                <img src="./img/insta.svg">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a>
+                                <img src="./img/pinterest.svg">
+                            </a>
+                        </li>
+                        <li class="social__item" id="twitter">
+                            <a>
+                                <img src="./img/twitter.svg">
+                            </a>
+                        </li>
+                </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
